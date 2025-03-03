@@ -31,7 +31,7 @@
                 </ContextMenu>
             </contextMenu>
         </TableView>
-        <Button fx:id="filterButton" layoutX="189.0" layoutY="180.0" mnemonicParsing="false" text="Filtruoti" />
-      <ChoiceBox fx:id="filter_choice" layoutX="14.0" layoutY="180.0" prefWidth="150.0" />
+        <Button fx:id="filterButton" layoutX="492.0" layoutY="186.0" mnemonicParsing="false" text="Filtruoti" />
+      <ChoiceBox fx:id="filter_choice" layoutX="317.0" layoutY="186.0" prefWidth="150.0" />
     </children>
 </AnchorPane>

@@ -49,6 +49,9 @@ public class AddBookAccounting implements Initializable {
             allAuthors.add(book.getName());
         }
 
+        Books.setItems(FXCollections.observableArrayList(allReaders));
+        Readers.setItems(FXCollections.observableArrayList(allAuthors));
+
    }
 
 
