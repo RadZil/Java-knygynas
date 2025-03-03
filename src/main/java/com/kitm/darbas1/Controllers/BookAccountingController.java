@@ -73,7 +73,7 @@ public class BookAccountingController implements Initializable {
         BookAccounted selectedBook = (BookAccounted) Book_table.getSelectionModel().getSelectedItem();
 
         if (selectedBook.getStatus() == "Returned") {
-            AlertUtility.displayError("Knyga grazinta");
+            AlertUtility.displayError("Knyga grazintaa");
 
         }else{
             AlertUtility.displayError("Taken");
